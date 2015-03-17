@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="winMain">
+      <UniqueIdentifier>{8cfe1721-4701-4861-926c-0b5bb412874e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{105f3caf-d44c-4e5f-9b5d-b06fd9648429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mgr">
+      <UniqueIdentifier>{4d1acd01-ec47-4d0c-a32a-e929b10549bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>winMain</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmVision.h">
+      <Filter>winMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>winMain</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>winMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision.h">
+      <Filter>mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionMgr.h">
+      <Filter>mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxRect.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>winMain</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmVision.cpp">
+      <Filter>winMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision.cpp">
+      <Filter>mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionMgr.cpp">
+      <Filter>mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxRect.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AlgorithmVision.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="AlgorithmVision.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
