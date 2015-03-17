@@ -1,2 +1,2 @@
-Algorithm-Practise
+Algorithm-Practice
 ==================
